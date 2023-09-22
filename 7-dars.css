@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #073BA1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.reg-ota{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.reg1{
+    width: 420px;
+    height: max-content;
+    box-shadow: 0px 1px 4px 0px #073BA11A;
+    border-radius: 30px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.reg1 img{
+    width: 100%;
+    height: 50px;
+    object-fit: contain;
+}
+
+.reg1 h2{
+    font-size: 24px;
+    color: #073BA1;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.reg1-form{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    color: #042668;
+}
+.reg1-form input{
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #e8eef3;
+    background-color: #E8EEF3;
+    outline: none;
+    padding-left: 20px;
+    color: #042668;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+.reg1-form input:focus{
+    border: 2px solid #073BA1;
+}
+.reg1-form p{
+    padding-bottom: 12px;
+}
+
+.reg1-form span{
+    color: #79859E;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.reg1-form span a{
+    text-decoration: none;
+    color: #073BA1;
+}
+
+.reg1-form button{
+ height: 50px;
+ border-radius: 8px; 
+ background-color: #EC3D5A; 
+ border: none; 
+ font-size: 16px;
+ font-weight: 600;
+ color: #FFFFFF;
+ margin-top: 12px;
+ margin-bottom: 12px;
+ cursor: pointer;
+}
+
+.epa{
+    text-align: center;
+    text-decoration: none;
+    color: #073BA1;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.email-ota{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.email1{
+    width: 420px;
+    height: max-content;
+    box-shadow: 0px 1px 4px 0px #073BA11A;
+    border-radius: 30px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.email1 img{
+    width: 100%;
+    height: 50px;
+    object-fit: contain;
+}
+
+.email1 h2{
+    color: #073BA1;
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.email1 p{
+    color: #042668;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+.email1-form{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    color: #042668;
+}
+.email1-form input{
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #e8eef3;
+    background-color: #E8EEF3;
+    outline: none;
+    padding-left: 20px;
+    color: #042668;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+.email1-form input:focus{
+    border: 2px solid #073BA1;
+}
+.email1-form p{
+    padding-bottom: 12px;
+}
+
+.email1 button{
+    width: 356px;
+    height: 50px;
+    background-color: #EC3D5A;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-bottom: 22px;
+}
+
+.personal-ota{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.personal1{
+    width: 420px;
+    height: max-content;
+    box-shadow: 0px 1px 4px 0px #073BA11A;
+    border-radius: 30px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.personal1 img{
+    width: 152px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.personal1 h2{
+    color: #073BA1;
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.personal1 p{
+    color: #042668;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.personal1 p2{
+    color: #073BA1;
+    font-weight: 500;font-size: 20px;
+    padding-bottom: 25px;
+}
+
+.button3{
+    width: 280px;
+    height: 50px;   
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px solid #073BA1;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px 0px #073BA11A;
+    margin-bottom: 10px;
+    color: #073BA1;
+    cursor: pointer;
+}
+
+.button2{
+    width: 280px;
+    height: 50px;   
+    background-color: #EC3D5A;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px 0px #073BA11A;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.code-ota{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.code1{
+    width: 420px;
+    height: max-content;
+    box-shadow: 0px 1px 4px 0px #073BA11A;
+    display: flex;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.code1 img{
+    width: 152px;
+    height: 50px;
+    object-fit: contain;
+    margin-top: 40px;
+}
+.code1 h2{
+    color: #073BA1;
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 30px;
+}
+.code1 p{
+    color: #042668;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.code1 p span{
+    color: #073BA1;
+    font-weight: 500;
+}
+.code1 p2{
+    color: #042668;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 25px;
+}
+.code1 form input{
+    width: 30px;
+    height: 36px;
+    background-color: #F1F6FB;
+    display: inline;    
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 6px;
+}
+
+.code1 button{
+    width: 280px;
+    height: 50px;
+    background-color: #EBF2FF;
+    border: none;
+    border-radius: 8px;
+    color: #073BA1;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+
